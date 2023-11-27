@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: radial-gradient(30deg, rgb(198, 40, 60))
+}
+
+nav{
+    width: 100%;
+    height: 80px;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    backdrop-filter: blur(60px);
+    position:fixed;
+    z-index: 3;
+}
+
+nav h1{
+    margin-left: 10px;
+    padding: 14px 16px;
+    float: left;
+    text-decoration: none;
+    /* color: #fff; */
+}
+
+.pages h3{
+    margin-left: 0px;
+    margin-right: 20px;
+    display: inline;
+    font-weight: 300;
+    font-size: 17px;
+    padding: 14px 16px;
+    float: left;
+    text-decoration: none;
+}
+
+.pages button{
+    background-color: black;
+    color: white;
+    height: 32px;
+    border: none;
+    width: 80px;
+    margin-top: 10px;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+main img{
+    width: 100%;
+    height: 800px;
+}
+
+main .h11{
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  margin-left: 10%;
+  font-weight: 800;
+  font-size: 120px;
+  color: rgb(255, 255, 255);
+  align-items: center;
+}
+main .h12{
+    position: absolute;
+    top: 33%;
+    left: 10%;
+    margin-left: 10%;
+    font-weight: 800;
+    font-size: 120px;
+    color: rgb(255, 255, 255);
+    align-items: center;
+  }
+
+main h3{
+    position: absolute;
+    top: 53%;
+    left: 40%;
+    color: white;
+}
+
+main button{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    height: 70px;
+    width: 150px;
+    font-size: 18px;
+    font-weight: 30px;
+    background-color: white;
+    border: none;
+    border-radius: 50px;
+    font-weight: 100px;
+}
+
+.column1 {
+    float: left;
+    width: 50%;
+  }
+
+.column2 {
+   float: left;
+   width: 50%;
+ }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
